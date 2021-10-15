@@ -1,0 +1,41 @@
+---
+title: "Untitled"
+author: "Will Ball"
+date: "14/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+options(scipen = 999)
+```
+
+
+## Libraries
+
+```{r libraries, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(janitor)
+```
+
+
+## Data
+
+```{r data, message = FALSE, warning = FALSE}
+
+```
+
+
+## Chunk 1
+
+```{r chunk 1, message = FALSE, warning = FALSE}
+
+```
+
+
+## Chunk 2
+
+```{r chunk 2, message = FALSE, warning = FALSE}
+
+```
