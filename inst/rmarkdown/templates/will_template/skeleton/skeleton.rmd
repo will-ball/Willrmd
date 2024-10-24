@@ -6,7 +6,11 @@ output: html_document
 ---
 
 ```{r}
+# Scientific Notation
 options(scipen = 999)
+
+# Set plotting theme
+theme_wpb()
 ```
 
 
