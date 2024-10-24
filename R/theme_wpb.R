@@ -6,10 +6,10 @@
 
 theme_wpb <- function() {
   # Set theme base = theme_classic()
-  theme_set(theme_classic())
+  ggplot2::theme_set(theme_classic())
 
   # Update with additional instructions
-  theme_update(panel.grid.major.y = element_line(),
+  ggplot2::theme_update(panel.grid.major.y = element_line(),
                plot.title.position = "plot",
                plot.caption.position = "plot",
                strip.background = element_blank())
